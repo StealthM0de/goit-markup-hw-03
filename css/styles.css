@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --iriscolor: #4d5ae5;
+  --navyblue: #2e2f42;
+  --navcolor: black;
+  --oceancolor: #2196f3;
+  --whitecolor: white;
+  --slatecolor: #434455;
+  --cloudcolor: #f4f4fd;
+}
+/*checked*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--slatecolor);
+}
+/*checked*/
+.logo-link {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 0;
+  font-weight: 800;
+}
+/*checked*/
+.logo-link > span {
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+/*checked*/
+.logo {
+  color: var(--iriscolor);
+}
+/*checked*/
+.studio {
+  color: var(--navyblue);
+}
+/*checked*/
+.studio-footer {
+  color: var(--cloudcolor);
+}
+/*checked*/
+.nav-menu .page {
+  color: var(--navcolor);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/*checked*/
+.list {
+  list-style-type: none;
+}
+/*checked*/
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
+  color: var(--iriscolor);
+}
+/*checked*/
+.contacts-menu .item {
+  color: var(--navcolor);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+/*checked*/
+.bg-hero {
+  background-color: var(--navyblue);
+}
+/*checked*/
+.hero-title {
+  color: var(--whitecolor);
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+/*checked*/
+.bg-team {
+  background-color: var(--cloudcolor);
+}
+/*checked*/
+.button {
+  cursor: pointer;
+  border-color: transparent;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 4px;
+  line-height: 1.5;
+}
+/*checked*/
+.button.primary {
+  color: var(--whitecolor);
+  background-color: var(--iriscolor);
+  font-weight: 800;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+/*checked*/
+.button.filter {
+  background-color: var(--cloudcolor);
+  color: var(--iriscolor);
+  font-weight: 500;
+  line-height: 1.62;
+}
+/*checked*/
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--oceancolor);
+}
+/*checked*/
+.button.filter:hover,
+.button.filter:focus,
+.button.filter.current {
+  background-color: var(--oceancolor);
+  color: var(--cloudcolor);
+}
+/*checked*/
+.benefits.title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--navyblue);
+}
+/*checked*/
+.benefits .description {
+  color: var(--slatecolor);
+  line-height: 1.71;
+  font-size: 16px;
+  font-weight: 400;
+}
+/*checked*/
+.section-title {
+  text-align: center;
+  color: var(--navyblue);
+  font-size: 36px;
+  line-height: 1.17;
+}
+/*checked*/
+.team .name {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+  text-align: center;
+}
+/*checked*/
+.team .position {
+  color: var(--slatecolor);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+/*checked*/
+.project {
+  text-decoration: none;
+}
+
+/*checked*/
+.project .name {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.4em;
+}
+/*checked*/
+.project.type {
+  color: var(--slatecolor);
+  font-weight: 400;
+  line-height: 1.87;
+}
+
+.bg-footer {
+  background-color: var(--navyblue);
+}
+/*checked*/
+.footer-description {
+  color: var(--cloudcolor);
+}
