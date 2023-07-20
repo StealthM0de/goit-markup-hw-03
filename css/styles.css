@@ -45,7 +45,7 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   margin: 0 auto;
-  border: 2px sol id var(--navyblue);
+  border: 2px;
 }
 
 .page-header {
@@ -94,6 +94,7 @@ body {
 .studio-footer {
   color: var(--cloudcolor);
 }
+
 /*checked*/
 .nav-menu .page {
   color: var(--navcolor);
@@ -135,7 +136,7 @@ body {
 .contacts-menu {
   display: flex;
   gap: 30px;
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 /*checked*/
@@ -150,10 +151,12 @@ body {
   line-height: 1.07;
   letter-spacing: 0.04em;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .hero-container {
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -185,7 +188,16 @@ body {
   color: var(--iriscolor);
   font-weight: 500;
   line-height: 1.62;
+  padding: 12px 24px;
 }
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
 /*checked*/
 .button.primary:hover,
 .button.primary:focus {
@@ -215,6 +227,7 @@ body {
 
 .benefits {
   display: flex;
+  gap: 20px;
 }
 
 .benefits-item {
@@ -223,10 +236,12 @@ body {
 
 .what-we-do {
   display: flex;
+  gap: 20px;
 }
 
 .team {
   display: flex;
+  gap: 20px;
 }
 
 /*checked*/
@@ -235,6 +250,7 @@ body {
   color: var(--navyblue);
   font-size: 36px;
   line-height: 1.17;
+  margin-bottom: 72px;
 }
 /*checked*/
 .team .name {
@@ -244,6 +260,7 @@ body {
   color: var(--navyblue);
   text-align: center;
 }
+
 /*checked*/
 .team .position {
   color: var(--slatecolor);
@@ -264,11 +281,25 @@ body {
   line-height: 2;
   letter-spacing: 0.04em;
 }
+
+.name {
+  margin-top: 32px;
+}
+
+.type {
+  margin-bottom: 32px;
+}
+
 /*checked*/
 .project .type {
   color: var(--slatecolor);
   font-weight: 400;
   line-height: 1.87;
+}
+
+.project-container {
+  display: flex;
+  gap: 30px;
 }
 
 .bg-footer {
