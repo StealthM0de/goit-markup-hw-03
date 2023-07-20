@@ -42,10 +42,31 @@ body {
 /*General Styles*/
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 0 auto;
-  border: 2px solid black;
+  border: 2px sol id var(--navyblue);
+}
+
+.page-header {
+  background-color: var(--whitecolor);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /*checked*/
@@ -82,6 +103,13 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+.nav-menu {
+  margin-left: 100px;
+  display: flex;
+  gap: 30px;
+}
+
 /*checked*/
 .list {
   list-style-type: none;
@@ -103,8 +131,16 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+.contacts-menu {
+  display: flex;
+  gap: 30px;
+  margin-left: 80px;
+}
+
 /*checked*/
 .bg-hero {
+  padding: 188px 472px 292px;
   background-color: var(--navyblue);
 }
 /*checked*/
@@ -115,6 +151,12 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
 }
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
 /*checked*/
 .bg-team {
   background-color: var(--cloudcolor);
@@ -136,7 +178,6 @@ body {
   font-weight: 500;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  padding: 16px 32px;
 }
 /*checked*/
 .button.filter {
@@ -162,14 +203,32 @@ body {
   font-size: 20px;
   font-weight: 500;
   color: var(--navyblue);
+  margin-bottom: 10px;
 }
 /*checked*/
 .benefits .description {
   color: var(--slatecolor);
   line-height: 1.71;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
 }
+
+.benefits {
+  display: flex;
+}
+
+.benefits-item {
+  width: calc(100% - 90 / 4);
+}
+
+.what-we-do {
+  display: flex;
+}
+
+.team {
+  display: flex;
+}
+
 /*checked*/
 .section-title {
   text-align: center;
@@ -213,6 +272,8 @@ body {
 }
 
 .bg-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--navyblue);
 }
 /*checked*/
