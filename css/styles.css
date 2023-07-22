@@ -188,7 +188,6 @@ body {
   gap: 10px;
   border-radius: 4px;
   background: var(--iriscolor);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   color: var(--whitecolor);
   font-weight: 500;
