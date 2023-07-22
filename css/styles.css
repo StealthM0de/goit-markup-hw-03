@@ -258,10 +258,6 @@ body {
   justify-content: space-between;
 }
 
-.benefits-item {
-  /* width: calc(100% - 90 / 4); */
-}
-
 .section-nopadding {
   padding-top: 0;
 }
