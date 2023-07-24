@@ -193,8 +193,13 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
-  justify-items: center;
 }
+
+.primary {
+  display: flex;
+  justify-content: center;
+}
+
 /*checked*/
 .button.filter {
   background-color: var(--cloudcolor);
@@ -321,7 +326,7 @@ body {
   line-height: 1.87;
 }
 
-.project-container {
+.project-card {
   display: flex;
   gap: 30px;
 }
